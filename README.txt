@@ -1,6 +1,6 @@
 Intro Fellowship Application Coding Challenge 
 
-Fall 2024 challenge: Matrix Multiplication!
+Challenge: Matrix Multiplication!
 
 Write some code in your favorite programming language (Python preferred) that
 first reads a value N from standard in, then reads 2 N x N matrices also from
