@@ -5,7 +5,7 @@ except:
   print("test.py requires numpy, install by running pip install numpy")
   exit(1)
 
-def format_array(arr): return np.array2string(arr).replace('[[','').replace(' [','').replace(']','')
+def format_array(arr): return np.array2string(arr,threshold=np.inf).replace('[[','').replace(' [','').replace(']','')
 
 if __name__ == "__main__":
   if len(sys.argv) != 2:
